@@ -91,7 +91,7 @@ public class App {
             return codigo4(n - 1) + codigo4(n - 2);
     }
 
-    /**
+    /** gggg
      * Gerador de vetores aleatórios de tamanho pré-definido. 
      * @param tamanho Tamanho do vetor a ser criado.
      * @return Vetor com dados aleatórios, com valores entre 1 e (tamanho/2), desordenado.
