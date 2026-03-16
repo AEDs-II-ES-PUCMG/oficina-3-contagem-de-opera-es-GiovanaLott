@@ -57,6 +57,7 @@ public class App {
         return resposta;
     }
      */
+    static int tamanhosTesteMedio;
     static int codigo2(int[] vetor) {
         int contador = 0;
         for (int k = (vetor.length - 1); k > 0; k /= 2) {
