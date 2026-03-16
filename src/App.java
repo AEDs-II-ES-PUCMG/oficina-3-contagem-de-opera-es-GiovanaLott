@@ -40,9 +40,10 @@ public class App {
      */
     static int codigo1(int[] vetor) {
         int resposta = 0;
+
         for (int i = 0; i < vetor.length; i += 2) {
             resposta += vetor[i]%2;
-        }
+                }
         return resposta;
     }
 
@@ -50,6 +51,11 @@ public class App {
      * Código de teste 2. Este método...
      * @param vetor Vetor com dados para teste.
      * @return Uma resposta que significa....
+     * for (int i = 0; i < vetor.length; i += 2) {
+            resposta += vetor[i]%2;
+                }
+        return resposta;
+    }
      */
     static int codigo2(int[] vetor) {
         int contador = 0;
@@ -91,7 +97,7 @@ public class App {
             return codigo4(n - 1) + codigo4(n - 2);
     }
 
-    /** gggg
+    /** 
      * Gerador de vetores aleatórios de tamanho pré-definido. 
      * @param tamanho Tamanho do vetor a ser criado.
      * @return Vetor com dados aleatórios, com valores entre 1 e (tamanho/2), desordenado.
